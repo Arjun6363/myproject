@@ -8,8 +8,13 @@ const About = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <h1 className="text-primary fw-bold mb-4">About Us</h1>
-                        <p className="lead mb-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae earum rem doloremque, nihil delectus ullam error consectetur? Dicta, non exercitationem in consectetur totam dolorum at voluptate laudantium aliquam, officiis perspiciatis molestias reiciendis consequuntur ullam perferendis velit blanditiis distinctio assumenda a maxime reprehenderit atque. Nam eius rerum distinctio, a illo earum, optio molestias nostrum maxime quibusdam delectus, adipisci impedit? Nam corporis reiciendis minus quod eaque, laborum veritatis voluptatibus id maiores tempore accusantium recusandae perspiciatis, officia cum ad maxime fuga repellendus a magni consequatur. Unde adipisci hic provident est sint corporis, dolorem esse autem soluta molestiae optio quisquam eligendi obcaecati minima?
+                        <p className="lead mb-4 lh-lg">
+                       <span className='text-success  fw-bold  "' > 𝓗</span>ello we are 𝐓𝐞𝐚𝐦 𝟓 GPT Bijapur.<br/>
+                            1.𝑻𝒂𝒉𝒊𝒓 𝑯𝒖𝒔𝒔𝒂𝒊𝒏 😎<br/>
+                            2.𝓢𝓱𝓻𝓲𝓼𝓱𝓪𝓲𝓵.𝓚. 🎗️<br/>
+                            3.𝓢𝓱𝓻𝓪𝓷𝓰𝓪𝓾𝓭𝓪 👌<br/>
+                            4.𝓚𝓪𝓻𝓽𝓱𝓲𝓴 😁<br/>
+                            5.𝓐𝓻𝓳𝓾𝓷 👍<br/>
                         </p>
                         <NavLink to="/contact" className="btn btn-outline-primary px-3">Contact Us</NavLink>
                     </div>

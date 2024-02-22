@@ -66,7 +66,7 @@ const Checkout = () => {
                                     <label htmlFor="username" className="form-label">Username</label>
                                     <div className="input-group has-validation">
                                         <span className="input-group-text">@</span>
-                                        <input type="text" className="form-control" id="username" placeholder="Username" required="" />
+                                        <input type="text" className="form-control" id="username" placeholder="Office Heroe's" required="" />
                                         <div className="invalid-feedback">
                                             Your username is required.
                                         </div>
@@ -75,7 +75,7 @@ const Checkout = () => {
 
                                 <div className="col-12">
                                     <label htmlFor="email" className="form-label">Email <span className="text-muted">(Optional)</span></label>
-                                    <input type="email" className="form-control" id="email" placeholder="you@example.com" />
+                                    <input type="email" className="form-control" id="email" placeholder="officeheroes@gmail.com" />
                                     <div className="invalid-feedback">
                                         Please enter a valid email address htmlFor shipping updates.
                                     </div>
@@ -83,7 +83,7 @@ const Checkout = () => {
 
                                 <div className="col-12">
                                     <label htmlFor="address" className="form-label">Address</label>
-                                    <input type="text" className="form-control" id="address" placeholder="1234 Main St" required="" />
+                                    <input type="text" className="form-control" id="address" placeholder="GPT bijapur" required="" />
                                     <div className="invalid-feedback">
                                         Please enter your shipping address.
                                     </div>
@@ -98,7 +98,7 @@ const Checkout = () => {
                                     <label htmlFor="country" className="form-label">Country</label>
                                     <select className="form-select" id="country" required="">
                                         <option value="">Choose...</option>
-                                        <option>United States</option>
+                                        <option>INDIA</option>
                                     </select>
                                     <div className="invalid-feedback">
                                         Please select a valid country.
@@ -109,7 +109,7 @@ const Checkout = () => {
                                     <label htmlFor="state" className="form-label">State</label>
                                     <select className="form-select" id="state" required="">
                                         <option value="">Choose...</option>
-                                        <option>California</option>
+                                        <option>Karnataka</option>
                                     </select>
                                     <div className="invalid-feedback">
                                         Please provide a valid state.
@@ -134,7 +134,7 @@ const Checkout = () => {
 
                             <div className="form-check">
                                 <input type="checkbox" className="form-check-input" id="save-info" />
-                                <label className="form-check-label" htmlFor="save-info">Save this information htmlFor next time</label>
+                                <label className="form-check-label" htmlFor="save-info">Save this information For next time</label>
                             </div>
 
                             <hr className="my-4" />
