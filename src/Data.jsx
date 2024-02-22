@@ -37,9 +37,16 @@ const DATA = [
     {
         id : 5,
         title : "IPhone 12 Pro Max",
-        price : 1250,
-        desc : "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        price : 119900,
+        desc : "Ceramic Shield | Industry-leading IP68 Water Resistance All Screen OLED Display LiDAR Scanner for Improved AR Experiences, Night Mode Portraits",
         img : "/assets/images/products/iphone12promax.png"
+    },
+    {
+        id : 6,
+        title : "C150SI",
+        price : 629,
+        desc : "The new JBL C150SI is a dynamic, ultra-lightweight in-ear headphone. Its powerful 9mm drivers deliver the feel-it-in-your-bones bass response and legendary sound quality you expect from JBL. They’re feather-light for all-day comfort. An in-line microphone with universal remote control lets you talk and manage your calls on Android and iOS devices.",
+        img : "/assets/images/products/jbl2.webp"
     }
 ]
 
