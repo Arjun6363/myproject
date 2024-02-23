@@ -1,8 +1,11 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
+import { useSelector} from 'react-redux'
+
 
 const Checkout = () => {
     const state = useSelector((state) => state.addItem)
+   
+    
 
     var total = 0;
     const itemList = (item) => {
@@ -12,7 +15,7 @@ const Checkout = () => {
                 <div>
                     <h6 className="my-0">{item.title}</h6>
                 </div>
-                <span className="text-muted">${item.price}</span>
+                <span className="text-muted">₹{item.price}</span>
             </li>
         );
     }
@@ -30,8 +33,8 @@ const Checkout = () => {
                             {state.map(itemList)}
 
                             <li className="list-group-item d-flex justify-content-between">
-                                <span>Total (USD)</span>
-                                <strong>${total}</strong>
+                                <span>Total (INR)</span>
+                                <strong>₹{total}</strong>
                             </li>
                         </ul>
 
@@ -48,7 +51,7 @@ const Checkout = () => {
                             <div className="row g-3">
                                 <div className="col-sm-6">
                                     <label htmlFor="firstName" className="form-label">First name</label>
-                                    <input type="text" className="form-control" id="firstName" placeholder="" value="" required="" />
+                                    <input type="text" className="form-control" id="firstname" placeholder="First name" required="" />
                                     <div className="invalid-feedback">
                                         Valid first name is required.
                                     </div>
@@ -56,7 +59,7 @@ const Checkout = () => {
 
                                 <div className="col-sm-6">
                                     <label htmlFor="lastName" className="form-label">Last name</label>
-                                    <input type="text" className="form-control" id="lastName" placeholder="" value="" required="" />
+                                    <input type="text" className="form-control" id="lastname" placeholder="Last name" required="" />
                                     <div className="invalid-feedback">
                                         Valid last name is required.
                                     </div>
@@ -143,7 +146,7 @@ const Checkout = () => {
 
                             <div className="my-3">
                                 <div className="form-check">
-                                    <input id="credit" name="paymentMethod" type="radio" className="form-check-input" checked="" required="" />
+                                    <input id="credit" name="paymentMethod" type="radio" className="form-check-input"  required="" />
                                     <label className="form-check-label" htmlFor="credit">Credit card</label>
                                 </div>
                                 <div className="form-check">
